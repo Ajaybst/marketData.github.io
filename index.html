@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+      integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="template.css" />
+    <title>MarketGuru</title>
+  </head>
+  <body>
+    <!-- First nav starts from here -->
+    <nav id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h1 class="company-name">marketData</h1>
+          </div>
+          <div class="col-md-8">
+            <ul id="menu" class="float-md-right">
+              <li><a href="">Home</a></li>
+              <li><a href="">Futures</a></li>
+              <li><a href="">News</a></li>
+              <li><a href="">Analysis</a></li>
+              <li><a href="">Signup</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- row closes here -->
+      </div>
+      <!-- container closes here -->
+    </nav>
+    <!-- nav closes here -->
+    <!-- ----------------------------------Second Container starts from here---------------------- -->
+    <section id="search" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="search-seaction">
+              <nav class="navbar navbar-light bg-light">
+                <form class="form-inline">
+                  <input
+                    class="form-control mr-sm-2"
+                    type="search"
+                    placeholder="Search For Company"
+                    aria-label="Search"
+                  />
+                  <button
+                    class="btn btn-outline-success my-2 my-sm-0"
+                    type="submit"
+                  >
+                    Search
+                  </button>
+                </form>
+              </nav>
+              <p class="lead" id="leadNew">
+                The Nifty 50 and Sensex have now fallen more than 10 per cent
+                from their recent highs after the brief recovery seen in
+                January. Both the benchmark indices were at their lowest levels
+                since mid-December.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 offset-md-1">
+            <div class="card" id="card" style="width: 18rem">
+              <img src="army.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Ukraine pulls back</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go Live</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- row div ends here -->
+      </div>
+      <!-- container div ends here -->
+    </section>
+    <!--section div ends here  -->
+    <!-- ------------------------------------Third container starts from here----------------------- -->
+    <section class="section topAnalysts">
+      <div class="container section">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-head h2s">Top Coments</h2>
+          </div>
+          <div class="col-md-4">
+            <div class="top-coments">
+              <h3>Ajay</h3>
+              <p>
+                As Russia's attack on Ukraine pushed stock markets deep into the
+                red, investors' wealth lost a roaring Rs13.57 lakh crore as
+                BSE-market cap, which reflects their wealth, came down to Rs
+                242.11 lakh crore.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="top-coments">
+              <h3>Suraj</h3>
+              <p>
+                Domestic indices on Thursday largely corrected in line with
+                global markets based on the geopolitical issues in Russia and
+                Ukraine with the Nifty 50 Nifty declined by 5%. The S&P BSE
+                Sensex crashed 2,702.15 points or 4.72 per cent to settle at
+                54,529.91 while the Nifty 50 tumbled 815.30 points or 4.78 per
+                cent to end at 16,247.95.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="top-coments">
+              <h3>Usha</h3>
+              <p>
+                Broader markets underperformed in comparison to the main indices
+                with Nifty Midcap and Nifty Smallcap decreasing by 5.7% and 6.2%
+                respectively. All sectoral indices ended in red with the Nifty
+                PSU Bank decreasing the most by 8.5% followed by Nifty Realty
+                (-7.7%) and Nifty Media (-6.8%).
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- row div ends here -->
+      </div>
+      <!-- container div ends here -->
+    </section>
+    <!-- section ends here -->
+    <!-- ------------------------------------------Fourth container starts from here----------------- -->
+    <div id="gainerloser" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-head h2s">Top Gainers and Losers</h2>
+          </div>
+
+          <div class="col-md-6">
+            <table class="table table-striped table-dark table-colorGreen">
+              <thead>
+                <tr class="greenHead">
+                  <th scope="col">#</th>
+                  <th scope="col">Company</th>
+                  <th scope="col">Open</th>
+                  <th scope="col">Close</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Sbin</td>
+                  <td>462.50</td>
+                  <td>489.20</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>TCS</td>
+                  <td>3459.85</td>
+                  <td>348.5</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Reliance</td>
+                  <td>2431.10</td>
+                  <td>2440.25</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Maruti</td>
+                  <td>7650.95</td>
+                  <td>7690.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="col-md-6">
+            <table class="table table-striped table-dark tableM table-colorRed">
+              <thead>
+                <tr class="redHead">
+                  <th scope="col">#</th>
+                  <th scope="col">Company</th>
+                  <th scope="col">Open</th>
+                  <th scope="col">Close</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Ambujacem</td>
+                  <td>453.25</td>
+                  <td>411.10</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Wipro</td>
+                  <td>571.25</td>
+                  <td>551.40</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>HDFC</td>
+                  <td>2463.20</td>
+                  <td>2453.25</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>BOB</td>
+                  <td>90.55</td>
+                  <td>88.60</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer starts from here -->
+    <div id="footer-sidebar">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="footer-widget">
+              <h4><b>About MarketData</b></h4>
+              <p class="text-justify">
+                markerdata of India Limited is the leading stock exchange of
+                India, located in Haldwani, Uttrakhand. It is world’s largest
+                derivatives exchange in 2021 by number of contracts traded based
+                on the statistics maintained by Futures Industry Association, a
+                derivatives trade body <a href="">wikepedia</a>
+              </p>
+              <p>
+                First exchange in India to provide modern, fully automated
+                electronic trading.
+              </p>
+            </div>
+          </div>
+
+          <!-- Address starts -->
+          <div class="col-md-4 offset-md-4">
+            <div class="footer-widget">
+              <h4><b>Contact Us</b></h4>
+              <p class="text-justify">Ajay Singh Bisht</p>
+              <p class="text-justify">Rampur Road,Panchayat ghar Haldwan</p>
+              <p class="text-justify">Pin:263139</p>
+              <p class="text-justify">No:(+91)8476923822</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+li {
+  list-style: none;
+}
+#header {
+  color: #fff;
+  background: #f78a80;
+}
+#menu {
+  list-style: none;
+
+  /*For me ---> try removing padding and see the effect ,then add global class and do margin padding 0 there */
+}
+#leadNew {
+  color: black;
+}
+#menu li {
+  display: inline-block;
+}
+#menu li a {
+  font-size: larger;
+  color: #fff;
+  /* check padding and margin in block items and inline items */
+  padding: 15px 10px;
+  display: block;
+}
+#menu li a:hover {
+  color: black;
+}
+.company-name {
+  font-size: 1.8rem;
+  margin: 15px 0px;
+}
+.banner-title {
+  padding-top: 3rem;
+}
+#search {
+  background-color: rgb(245, 185, 185);
+}
+.search-seaction h1 {
+  background: rgba(255, 255, 255, 0.2);
+}
+.search-seaction p.lead {
+  color: white;
+  background: rgba(231, 6, 60, 0.2);
+  padding: 10px;
+}
+/* Icons  -->common*/
+.top-coments {
+  text-align: center;
+}
+
+.gainersLosers {
+  background: rgb(40, 218, 134);
+  color: #fff;
+}
+/* sections --->common */
+.section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.section h2.section-head {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.h2s {
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+}
+
+#gainerloser {
+  color: #fff;
+  background: rgb(161, 147, 147);
+  padding: 50px 0;
+}
+.topAnalysts {
+  background-color: rgb(135, 126, 182);
+}
+
+/* Footer CSS */
+h4 {
+  text-align: left;
+  color: black;
+}
+#footer-sidebar {
+  background: rgb(185, 98, 98);
+  color: white;
+  padding: 20px 0;
+}
+/* Tbale color */
+.table-colorGreen {
+  background-color: rgb(72, 228, 72, 0.3);
+}
+.greenHead {
+  background-color: rgb(74, 78, 78);
+}
+.table-colorRed {
+  background-color: rgb(238, 71, 71, 0.3);
+}
+.redHead {
+  background-color: rgb(74, 78, 78);
+}
+/* media query for small screen */
+@media (max-width: 768px) {
+  .company-name {
+    text-align: center;
+  }
+  #menu {
+    text-align: center;
+  }
+  /* give margin between tables */
+  .tableM {
+    margin-top: 20px;
+  }
+  #menu li a {
+    font-size: smaller;
+  }
+  #menu {
+    margin-top: -20px;
+    margin-bottom: -10px;
+  }
+}
