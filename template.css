@@ -6,6 +6,8 @@
 a:hover {
   text-decoration: none;
   color: white;
+  background: rgb(241, 236, 236);
+  border-radius: 20px;
 }
 li {
   list-style: none;
@@ -23,21 +25,25 @@ li {
   color: black;
 }
 #menu li {
+  /* to bring all li in one line */
   display: inline-block;
 }
 #menu li a {
   font-size: larger;
-  color: #fff;
+  color: white;
+
+  height: 100%;
+  margin-top: 10px;
   /* check padding and margin in block items and inline items */
   padding: 15px 10px;
-  display: block;
+  display: block; /* so that padding canwork properly */
 }
 #menu li a:hover {
   color: black;
 }
 .company-name {
   font-size: 1.8rem;
-  margin: 15px 0px;
+  margin: 20px 0px;
 }
 .banner-title {
   padding-top: 3rem;
